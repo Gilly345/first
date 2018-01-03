@@ -14,6 +14,5 @@ var reload = require('reload');
  //reload lapha
  reload(app);
  server.listen(app.get('port'),function () {
-     console.log('Hi');
      console.log('Web server listening on port ' + app.get('port'))
  })
